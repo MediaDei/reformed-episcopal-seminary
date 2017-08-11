@@ -1,3 +1,15 @@
+//RWD Break Points -- Mobile First
+$min-breakpoint: 480px;
+$mobile-breakpoint: 620px;
+$tablet-breakpoint: 820px;
+@mixin breakpoint($point) {
+  @if $point == tablet {
+    @media (max-width: $tablet-breakpoint) { @content; }
+  }
+  @else if $point == mobile {
+    @media (max-width: $mobile-breakpoint)  { @content; }
+  }
+}
 
 //Clearfix
 .clear:after {
@@ -20,10 +32,12 @@
 
 //font colors
 $base-text: #554F4B;
-$lighter-text: #797979;
-$darker-text: #393531;
-$link: #1461A3;
-$gold: #95793A;
+//$lighter-text: #797979;
+//$darker-text: #393531;
+//$link: #1461A3;
+//$gold: #95793A;
+$nav-line: rgba(white,0.31);
+$underline: #FF9900;
 
 
 

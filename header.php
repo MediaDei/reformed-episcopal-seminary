@@ -36,4 +36,77 @@
 
 <body <?php body_class(); ?>>
 	<header>
-	
+		<span class="anchor" id="menu"></span><!--used to close/opon nav menu and show/hide menu buttons-->
+
+		<nav class="grid clear">
+			<div class="buttons-left">
+				<a href="<?php echo get_site_url() ?>/heritage/">
+					<div class="button">Heritage</div>
+				</a>
+				<a href="<?php echo get_site_url() ?>/programs/">
+					<div class="button">Programs</div>
+				</a>
+				<a href="<?php echo get_site_url() ?>/admissions/">
+					<div class="button">Admissions</div>
+				</a>
+				<a href="<?php echo get_site_url() ?>/students/">
+					<div class="button">Students</div>
+				</a>
+			</div>
+
+			<a href="<?php echo get_site_url() ?>/" class="logo">
+				<h1 class="smallcaps">Reformed</h1>
+				<h1 class="smallcaps">Episcopal</h1>
+				<h1 class="smallcaps">Seminary</h1>
+			</a>
+
+			<div class="buttons-right">
+				<a href="<?php echo get_site_url() ?>/news/">
+					<div class="button">News</div>
+				</a>
+				<a href="<?php echo get_site_url() ?>/apply/">
+					<div class="button">Apply</div>
+				</a>
+				<a href="<?php echo get_site_url() ?>/contact/">
+					<div class="button">Contact</div>
+				</a>
+				<a href="<?php echo get_site_url() ?>/give/">
+					<div class="button">Give</div>
+				</a>
+				<a class="menu open" href="#menu">
+					<div class="button fa fa-bars"></div>
+				</a>
+				<a class="menu close" href="#">
+					<div class="button fa fa-bars"></div>
+				</a>
+			</div>
+		</nav>
+
+		<?php 
+			//get hero for index.php and also apply it to archive.php
+			if(is_home() || is_archive()) { 
+				$page_for_posts = get_option( 'page_for_posts' );
+				echo '<div class="hero-img" role="image">';
+				include(TEMPLATEPATH."/global-parts/navigation-menu.php");
+				get_the_post_thumbnail($page_for_posts, 'large');
+				echo '</div>';
+			}
+			//get hero for all pages except index.php, archive.php, and single.php
+			if ( has_post_thumbnail() && !is_single()) {
+				echo '<div class="hero-img" role="image">';
+				include(TEMPLATEPATH."/global-parts/navigation-menu.php");
+				if(is_page('home')){
+					the_post();
+				}
+				the_post_thumbnail();
+				echo '</div>';
+				
+			}
+			if(is_single()){
+				echo '<div class="hero-img single-post" role="image">';
+				include(TEMPLATEPATH."/global-parts/navigation-menu.php");
+					the_post_thumbnail();
+				echo '</div>';
+			}	
+			?>
+
