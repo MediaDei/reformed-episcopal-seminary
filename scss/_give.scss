@@ -1,0 +1,8 @@
+body.page-give{
+  header{
+    @include background( 
+        linear-gradient(rgba(black,0.4), rgba(black,0.4)),
+        url('../images/give-hero.jpg') no-repeat center 0px / 100% auto
+      ); 
+  }
+}

@@ -1,6 +1,23 @@
+//init and global style includes
 @import "compass/css3";
 @import "bits";
 @import "normalize";
 @import "header";
 
+//page style includes
+@import "home";
 
+@import "heritage";
+@import "programs";
+@import "admissions";
+@import "students";
+
+@import "blog";
+@import "apply";
+@import "contact";
+@import "give";
+
+//global styles
+body{
+  font-size: 18px;
+}

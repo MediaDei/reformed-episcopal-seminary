@@ -81,8 +81,82 @@
 				</a>
 			</div>
 		</nav>
+		<div class="hero-overlay">
+			<h1 class="header-title">
+			<?php 
+				if(is_page('home')){ 
+					echo 'Reformed Episcopal Seminary';				
+				}
+				if(is_page('heritage')){
+						echo 'Heritage';	
+				}
+				if(is_page('programs')){
+						echo 'Programs';	
+				}
+				if(is_page('admissions')){
+						echo 'Admissions';	
+				}
+				if(is_page('students')){
+						echo 'Students';	
+				}
 
-		<?php 
+				if(is_page('news')){
+						echo 'News';	
+				}
+				if(is_page('apply')){
+						echo 'Apply';	
+				}
+				if(is_page('contact')){
+						echo 'Contact';	
+				}
+				if(is_page('give')){
+						echo 'Give';	
+				}
+			?>
+			</h1>
+			<div class="gold-line"></div>
+			<h2 class="header-subtitle">
+			<?php 
+				if(is_page('home')){ 
+					echo 'The future lorem ipsum dolor virumque.';				
+				}
+
+				if(is_page('heritage')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+				if(is_page('programs')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+				if(is_page('admissions')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+				if(is_page('students')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+
+				if(is_page('news')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+				if(is_page('apply')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+				if(is_page('contact')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+				if(is_page('give')){
+						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+				}
+			?>
+			</h2>
+		</div>
+
+
+
+
+
+		<?php
+			/*PHP for Custom Page Featured Images; not used currently, but may want later
+
 			//get hero for index.php and also apply it to archive.php
 			if(is_home() || is_archive()) { 
 				$page_for_posts = get_option( 'page_for_posts' );
@@ -108,5 +182,5 @@
 					the_post_thumbnail();
 				echo '</div>';
 			}	
+			*/
 			?>
-

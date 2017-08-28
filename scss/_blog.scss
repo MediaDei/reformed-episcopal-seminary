@@ -1,0 +1,8 @@
+body.blog{
+  header{
+    @include background( 
+        linear-gradient(rgba(black,0.4), rgba(black,0.4)),
+        url('../images/news-hero.jpg') no-repeat center 0px / 100% auto
+      ); 
+  }
+}
