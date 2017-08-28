@@ -27,6 +27,18 @@ $tablet-breakpoint: 820px;
   font-family: "SortsMillGoudy-SC", "SortsMillGoudy", serif;
   letter-spacing: 0.5px;
 }
+.drop-sc{
+  &:first-line{
+    font-family: "SortsMillGoudy-SC", "SortsMillGoudy", serif;
+    letter-spacing: 1.5px;
+  }
+  &:first-letter{
+    font-size: 3em;
+    float: left;
+    margin-right: 5px;
+  }
+  
+}
 
 
 

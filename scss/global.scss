@@ -20,4 +20,9 @@
 //global styles
 body{
   font-size: 18px;
+  color: $base-text;
+  line-height: 1.2;
+  p{
+    hyphens: auto;
+  } 
 }

@@ -88,7 +88,7 @@
 					echo 'Reformed Episcopal Seminary';				
 				}
 				if(is_page('heritage')){
-						echo 'Heritage';	
+						echo 'Our Heritage';	
 				}
 				if(is_page('programs')){
 						echo 'Programs';	
@@ -184,3 +184,4 @@
 			}	
 			*/
 			?>
+	</header>

@@ -7,6 +7,14 @@
   font-family: "SortsMillGoudy-SC", "SortsMillGoudy", serif;
   letter-spacing: 0.5px; }
 
+.drop-sc:first-line {
+  font-family: "SortsMillGoudy-SC", "SortsMillGoudy", serif;
+  letter-spacing: 1.5px; }
+.drop-sc:first-letter {
+  font-size: 3em;
+  float: left;
+  margin-right: 5px; }
+
 @font-face {
   font-family: 'SortsMillGoudy';
   src: url("../fonts/OFLGoudyStM.woff") format("woff"), url("../fonts/OFLGoudyStM.otf") format("opentype");
@@ -500,8 +508,11 @@ header {
       color: white;
       text-align: center; }
     header div.hero-overlay h1.header-title {
-      font-size: 3em;
-      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+      font-size: 4em;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-bottom: 10px; }
     header div.hero-overlay div.gold-line {
       width: 80%;
       border-bottom: 2px solid #FF9900;
@@ -510,7 +521,9 @@ header {
     header div.hero-overlay h2.header-subtitle {
       font-style: italic;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-      font-size: 1.5em; }
+      font-size: 1.7em;
+      max-width: 550px;
+      margin: 20px auto 0px; }
   header div.navigation-menu {
     opacity: 0;
     width: 0px;
@@ -544,6 +557,28 @@ body.page-heritage header {
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/heritage-hero.jpg") no-repeat center 0px/100% auto;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/heritage-hero.jpg") no-repeat center 0px/100% auto;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/heritage-hero.jpg") no-repeat center 0px/100% auto; }
+body.page-heritage section.heritage {
+  padding: 100px 0px; }
+  body.page-heritage section.heritage h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    margin: 10px auto; }
+  body.page-heritage section.heritage p {
+    max-width: 720px;
+    padding: 0px 40px;
+    margin: 0 auto; }
+  body.page-heritage section.heritage div.photo {
+    width: 60%;
+    height: 350px;
+    margin: 90px auto 100px;
+    border: 10px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 2px 0 4px rgba(0, 0, 0, 0.15), 0px -2px 4px rgba(0, 0, 0, 0.15), -2px 0 4px rgba(0, 0, 0, 0.15);
+    background: url("../images/westminister.jpg") no-repeat center center/100% auto; }
+  body.page-heritage section.heritage div.bottom-photo {
+    width: 100%;
+    height: 730px;
+    background: url("../images/heritage-bottom.jpg") no-repeat center center/100% auto; }
 
 body.page-programs header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/programs-hero.jpg") no-repeat center 0px/100% auto;
@@ -595,4 +630,8 @@ body.page-give header {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/give-hero.jpg") no-repeat center 0px/100% auto; }
 
 body {
-  font-size: 18px; }
+  font-size: 18px;
+  color: #554F4B;
+  line-height: 1.2; }
+  body p {
+    hyphens: auto; }

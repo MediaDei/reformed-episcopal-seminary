@@ -146,8 +146,11 @@ header{
     }
 
     h1.header-title{
-      font-size: 3em;
+      font-size: 4em;
       text-shadow: 0px 2px 4px rgba(black,0.5);
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-bottom: 10px; 
     }
 
     div.gold-line{
@@ -160,7 +163,9 @@ header{
     h2.header-subtitle{
       font-style: italic;
       text-shadow: 0px 1px 3px rgba(black,0.5);
-      font-size: 1.5em;
+      font-size: 1.7em;
+      max-width: 550px;
+      margin: 20px auto 0px;  
     }
   }
   
