@@ -24,5 +24,39 @@ body{
   line-height: 1.2;
   p{
     hyphens: auto;
-  } 
+  }
+  div.founded-banner{
+    background: #061524;
+    padding: 18px 0px; 
+    overflow: hidden;
+    position: relative;
+    img{
+      position: absolute;
+      left: 0;
+      opacity: 0.09; 
+      width: 400px;
+      height: auto;
+    }
+    div.grid-1-2{
+      &:first-of-type{
+        border-right: 1px solid $orange;
+        padding: 20px 0px; 
+      }
+      p{
+        text-align: center;
+        color: white;
+        &.top{
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin-bottom: 6px; 
+        }
+        &.bottom{
+          font-style: italic;
+        }
+        &.date{
+          font-size: 4.5em; 
+        }
+      }
+    } 
+  }
 }
