@@ -204,6 +204,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/program-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411979,
+		"inputAbbreviatedPath": "\/images\/program-1.jpg",
+		"outputAbbreviatedPath": "\/images\/program-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/program-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402706,
+		"inputAbbreviatedPath": "\/images\/program-2.jpg",
+		"outputAbbreviatedPath": "\/images\/program-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/program-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 458897,
+		"inputAbbreviatedPath": "\/images\/program-3.jpg",
+		"outputAbbreviatedPath": "\/images\/program-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/program-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 416043,
+		"inputAbbreviatedPath": "\/images\/program-4.jpg",
+		"outputAbbreviatedPath": "\/images\/program-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/programs-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -233,6 +277,17 @@
 		"initialSize": 519479,
 		"inputAbbreviatedPath": "\/images\/students-hero.jpg",
 		"outputAbbreviatedPath": "\/images\/students-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/watermark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6413,
+		"inputAbbreviatedPath": "\/images\/watermark.jpg",
+		"outputAbbreviatedPath": "\/images\/watermark.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -271,6 +326,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-home.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/page-programs.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/page-programs.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

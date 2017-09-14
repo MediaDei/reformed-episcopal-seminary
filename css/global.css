@@ -693,6 +693,53 @@ body.page-programs header {
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/programs-hero.jpg") no-repeat center 0px/100% auto;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/programs-hero.jpg") no-repeat center 0px/100% auto;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/programs-hero.jpg") no-repeat center 0px/100% auto; }
+body.page-programs section.programs {
+  padding-bottom: 100px; }
+  body.page-programs section.programs div.program {
+    padding: 100px 0px 80px;
+    border-bottom: 1px solid #979797; }
+    body.page-programs section.programs div.program:last-of-type {
+      border-bottom: none; }
+    body.page-programs section.programs div.program h2.program-title {
+      letter-spacing: 3px;
+      text-align: center;
+      font-size: 2.1em;
+      text-transform: uppercase; }
+    body.page-programs section.programs div.program p.short-desc {
+      font-style: italic;
+      text-align: center;
+      max-width: 520px;
+      margin: 0 auto 50px;
+      font-size: 1.1em;
+      line-height: 1.4; }
+    body.page-programs section.programs div.program img.program-img {
+      width: 100%;
+      height: auto; }
+    body.page-programs section.programs div.program div.statistics.grid {
+      width: 85%;
+      position: relative;
+      top: -70px;
+      background-color: #EDECE5;
+      padding: 30px 0px 30px;
+      margin: 0 auto; }
+      body.page-programs section.programs div.program div.statistics.grid div.grid-1-3 {
+        border-right: 2px solid rgba(0, 0, 0, 0.14); }
+        body.page-programs section.programs div.program div.statistics.grid div.grid-1-3:last-of-type {
+          border-right: none; }
+        body.page-programs section.programs div.program div.statistics.grid div.grid-1-3 p.number {
+          width: 100%;
+          text-align: center;
+          color: #FF9900;
+          text-shadow: 0px 1px 0px rgba(115, 115, 115, 0.5), 0px -1px 0px white;
+          font-size: 4.5em;
+          font-family: Georgia;
+          margin: 0px; }
+        body.page-programs section.programs div.program div.statistics.grid div.grid-1-3 p {
+          width: 100%;
+          text-align: center; }
+    body.page-programs section.programs div.program p.long-desc {
+      max-width: 620px;
+      margin: 30px auto 80px; }
 
 body.page-admissions header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/admissions-hero.jpg") no-repeat center 0px/100% auto;
@@ -767,3 +814,54 @@ body {
         font-style: italic; }
       body div.founded-banner div.grid-1-2 p.date {
         font-size: 4.5em; }
+  body div.connect-banner {
+    background: #061524;
+    overflow: hidden;
+    position: relative;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 6px 0px 8px; }
+    body div.connect-banner img {
+      position: absolute;
+      left: -90px;
+      top: -55px;
+      opacity: 0.09;
+      width: 310px;
+      height: auto; }
+    body div.connect-banner div.grid-2-3 {
+      padding: 10px 0px; }
+      body div.connect-banner div.grid-2-3 p {
+        text-align: center;
+        color: white; }
+        body div.connect-banner div.grid-2-3 p.top {
+          font-size: 1.3em;
+          margin: 0;
+          position: relative; }
+          body div.connect-banner div.grid-2-3 p.top:before {
+            content: "";
+            border-bottom: 1px solid #FF9900;
+            height: 6px;
+            width: 80px;
+            top: 20px;
+            left: 40%;
+            position: absolute; }
+        body div.connect-banner div.grid-2-3 p.bottom {
+          font-style: italic;
+          color: #C1C1C1;
+          margin: 6px 0px 0px; }
+    body div.connect-banner div.grid-1-3 a.button {
+      background-color: #CFCDC0;
+      padding: 9px 9px;
+      border: 2px solid #979378;
+      box-shadow: 0px 0px 0px 1px #061524, 0px 0px 0px 2px rgba(161, 158, 141, 0.6);
+      text-shadow: 0px 1px 0px white;
+      color: #061524;
+      display: table;
+      margin: 20px auto 0px;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 1.5px; }
+      body div.connect-banner div.grid-1-3 a.button:hover {
+        text-decoration: none; }
+      body div.connect-banner div.grid-1-3 a.button:active {
+        margin-top: 21px; }
