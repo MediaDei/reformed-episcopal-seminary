@@ -44,6 +44,16 @@
       <p class="date">1887<time datetime="1887"></p>
     </div>
   </div>
+  <div class="professor-highlight clear">
+    <img src="/wp-content/themes/res-theme/images/dale-crouthamel.jpg" alt="professor">
+    <div class="text">
+      <p class="bio">
+        <span>A sure foundation.</span> Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit.
+      </p>
+      <p class="prof-name">Dr. Dale Crouthamel</p>
+      <p class="title">Professor, Dogmatic Theology</p>
+    </div>
+  </div>
   <div class="bottom-photo"></div>
 </section>
 
