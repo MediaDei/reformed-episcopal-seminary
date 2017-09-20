@@ -10,7 +10,7 @@
       while ( have_posts() ) {
         
         the_post(); ?>
-        <div class="post clear<?php if($bg_color % 2 == 0){echo ' bg-color';}?>">
+        <article class="post-preview clear<?php if($bg_color % 2 == 0){echo ' bg-color';}?>">
           <time>Posted on <?php the_time('F jS, Y'); ?></time>
           <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
           <div class="content">
@@ -20,7 +20,7 @@
             }
             the_content(); ?>
           </div>
-        </div>
+        </article>
         <?php
         $bg_color++;
         //

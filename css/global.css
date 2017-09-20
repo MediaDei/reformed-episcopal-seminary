@@ -576,6 +576,16 @@ header {
       height: auto;
       position: relative;
       display: block; }
+  header div.hero-featured-image {
+    width: 194px;
+    height: 194px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 1px solid #979797; }
+    header div.hero-featured-image img {
+      width: 100%;
+      height: 100%; }
 
 body.page-home header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/home-hero.jpg") no-repeat center 0px/100% auto;
@@ -764,42 +774,6 @@ body.blog header {
 
 section.news {
   padding: 60px 0px 90px; }
-  section.news div.post {
-    padding: 50px 20px;
-    border-bottom: 1px solid #E0E0E0; }
-    section.news div.post.bg-color {
-      background-color: #FBFBF8; }
-      section.news div.post.bg-color a {
-        margin: 6px auto 30px; }
-    section.news div.post time {
-      margin: 0 auto;
-      display: table;
-      font-style: italic;
-      font-size: 0.9em; }
-    section.news div.post a {
-      display: table;
-      color: #554F4B;
-      text-align: center;
-      margin: 6px auto 20px;
-      font-size: 1.5em;
-      max-width: 728px; }
-    section.news div.post div.content {
-      margin: 0 auto;
-      max-width: 728px; }
-      section.news div.post div.content figure {
-        float: left;
-        margin: 0px 30px 0px 0px;
-        display: table;
-        border: 1px solid #979797; }
-        section.news div.post div.content figure img {
-          display: block;
-          width: 232px;
-          height: 161px; }
-      section.news div.post div.content p {
-        padding-top: 9px;
-        margin-top: 0; }
-        section.news div.post div.content p:first-line {
-          font-family: "SortsMillGoudy-SC"; }
 
 body.page-apply header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/apply-hero.jpg") no-repeat center 0px/100% auto;
@@ -821,6 +795,82 @@ body.page-give header {
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/give-hero.jpg") no-repeat center 0px/100% auto;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/give-hero.jpg") no-repeat center 0px/100% auto;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/give-hero.jpg") no-repeat center 0px/100% auto; }
+
+body.single header {
+  min-height: auto;
+  padding-top: 140px; }
+body.single section.single article.post {
+  max-width: 728px;
+  margin: 0 auto;
+  padding: 20px 0px; }
+  body.single section.single article.post h1 {
+    display: table;
+    margin: 0 auto 80px;
+    position: relative;
+    text-align: center; }
+    body.single section.single article.post h1:before {
+      content: "";
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      margin: 0 auto;
+      height: 2px;
+      width: 50%;
+      -moz-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+      -webkit-transform: translate(-50%, 0%);
+      transform: translate(-50%, 0%);
+      border-bottom: 2px solid #FF9900; }
+  body.single section.single article.post p:first-line {
+    font-family: "SortsMillGoudy-SC"; }
+  body.single section.single article.post time {
+    font-style: italic;
+    display: block; }
+    body.single section.single article.post time:first-of-type {
+      margin: 40px auto 10px;
+      text-align: center;
+      font-size: 1.2em; }
+    body.single section.single article.post time:last-of-type {
+      margin: 40px 0px 30px; }
+  body.single section.single article.post div.categories {
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    padding: 8px 0px; }
+    body.single section.single article.post div.categories a {
+      color: #1461A3;
+      font-style: italic; }
+body.single section.single div.more-posts-banner {
+  background: #061524;
+  padding: 18px 0px;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #061524;
+  border-bottom: 1px solid #061524;
+  box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px white;
+  margin: 80px 0px 40px; }
+  body.single section.single div.more-posts-banner img {
+    position: absolute;
+    left: 0;
+    opacity: 0.09;
+    width: 400px;
+    height: auto; }
+  body.single section.single div.more-posts-banner p {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2em;
+    margin: 0px; }
+body.single section.single div.latest-posts {
+  background-color: #FBFBF8;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797; }
+  body.single section.single div.latest-posts article.post-preview {
+    max-width: 728px;
+    margin: 0 auto;
+    border-bottom: 1px solid #B3ABAB; }
+    body.single section.single div.latest-posts article.post-preview:last-of-type {
+      border-bottom: none; }
 
 body {
   font-size: 18px;
@@ -904,3 +954,39 @@ body {
         text-decoration: none; }
       body div.connect-banner div.grid-1-3 a.button:active {
         margin-top: 21px; }
+  body article.post-preview {
+    padding: 50px 20px;
+    border-bottom: 1px solid #E0E0E0; }
+    body article.post-preview.bg-color {
+      background-color: #FBFBF8; }
+      body article.post-preview.bg-color a {
+        margin: 6px auto 30px; }
+    body article.post-preview time {
+      margin: 0 auto;
+      display: table;
+      font-style: italic;
+      font-size: 0.9em; }
+    body article.post-preview a {
+      display: table;
+      color: #554F4B;
+      text-align: center;
+      margin: 6px auto 20px;
+      font-size: 1.5em;
+      max-width: 728px; }
+    body article.post-preview div.content {
+      margin: 0 auto;
+      max-width: 728px; }
+      body article.post-preview div.content figure {
+        float: left;
+        margin: 0px 30px 0px 0px;
+        display: table;
+        border: 1px solid #979797; }
+        body article.post-preview div.content figure img {
+          display: block;
+          width: 232px;
+          height: 161px; }
+      body article.post-preview div.content p {
+        padding-top: 9px;
+        margin-top: 0; }
+        body article.post-preview div.content p:first-line {
+          font-family: "SortsMillGoudy-SC"; }

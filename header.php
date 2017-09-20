@@ -81,74 +81,85 @@
 				</a>
 			</div>
 		</nav>
-		<div class="hero-overlay">
-			<h1 class="header-title">
-			<?php 
-				if(is_page('home')){ 
-					echo 'Reformed Episcopal Seminary';				
-				}
-				if(is_page('heritage')){
-						echo 'Our Heritage';	
-				}
-				if(is_page('programs')){
-						echo 'Programs';	
-				}
-				if(is_page('admissions')){
-						echo 'Admissions';	
-				}
-				if(is_page('students')){
-						echo 'Students';	
-				}
+		<?php if(!is_single()){ ?>
+			<div class="hero-overlay">
+				<h1 class="header-title">
+				<?php 
+					if(is_page('home')){ 
+						echo 'Reformed Episcopal Seminary';				
+					}
+					if(is_page('heritage')){
+							echo 'Our Heritage';	
+					}
+					if(is_page('programs')){
+							echo 'Programs';	
+					}
+					if(is_page('admissions')){
+							echo 'Admissions';	
+					}
+					if(is_page('students')){
+							echo 'Students';	
+					}
 
-				if(is_home()){ //wordpress does not have a conditional function/tag for blog page (i.e., is_home)
-						echo 'News';	
-				}
-				if(is_page('apply')){
-						echo 'Apply';	
-				}
-				if(is_page('contact')){
-						echo 'Contact';	
-				}
-				if(is_page('give')){
-						echo 'Give';	
-				}
-			?>
-			</h1>
-			<div class="gold-line"></div>
-			<h2 class="header-subtitle">
-			<?php 
-				if(is_page('home')){ 
-					echo 'The future lorem ipsum dolor virumque.';				
-				}
+					if(is_home()){ //wordpress does not have a conditional function/tag for blog page (i.e., is_home)
+							echo 'News';	
+					}
+					if(is_page('apply')){
+							echo 'Apply';	
+					}
+					if(is_page('contact')){
+							echo 'Contact';	
+					}
+					if(is_page('give')){
+							echo 'Give';	
+					}
+				?>
+				</h1>
+				<div class="gold-line"></div>
+				<h2 class="header-subtitle">
+				<?php 
+					if(is_page('home')){ 
+						echo 'The future lorem ipsum dolor virumque.';				
+					}
 
-				if(is_page('heritage')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-				if(is_page('programs')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-				if(is_page('admissions')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-				if(is_page('students')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
+					if(is_page('heritage')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('programs')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('admissions')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('students')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
 
-				if(is_home()){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-				if(is_page('apply')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-				if(is_page('contact')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-				if(is_page('give')){
-						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
-				}
-			?>
-			</h2>
-		</div>
+					if(is_home()){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('apply')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('contact')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('give')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+				?>
+				</h2>
+			</div>
+		<?php 
+		}//end if
+		else {
+			if(has_post_thumbnail()){?>
+			<div class="hero-featured-image">
+				<?php the_post_thumbnail(); ?>
+			</div> <?php
+			}
+		}
+		?>
 
 
 

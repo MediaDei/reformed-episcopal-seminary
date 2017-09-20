@@ -1,0 +1,96 @@
+body.single{
+  header{
+    min-height: auto; //header height same as featured image
+    padding-top: 140px; 
+  }
+  section.single{
+    article.post{
+      max-width: 728px;
+      margin: 0 auto;
+      padding: 20px 0px;
+      h1{
+        display: table;
+        margin: 0 auto 80px;
+        position: relative;
+        text-align: center; 
+        &:before{
+          content: "";
+          position: absolute;
+          bottom: -12px;
+          left: 50%;
+          margin: 0 auto; 
+          height: 2px;
+          width: 50%;  
+          @include transform(translate(-50%, 0%));
+          border-bottom: 2px solid $underline;
+        }
+      }
+      p{
+        &:first-line{
+          font-family: "SortsMillGoudy-SC";
+        }
+      }
+
+      time{
+        font-style: italic;
+        display: block;
+        &:first-of-type{
+          margin: 40px auto 10px;
+          text-align: center;
+          font-size: 1.2em;
+        }
+        &:last-of-type{
+          margin: 40px 0px 30px;
+        }
+        
+      }
+      div.categories{
+        border-top: 1px solid #979797;
+        border-bottom: 1px solid #979797;
+        padding: 8px 0px; 
+        a{
+          color: $link;
+          font-style: italic;
+        }
+      }
+    }
+    div.more-posts-banner{
+      background: #061524;
+      padding: 18px 0px; 
+      overflow: hidden;
+      position: relative;
+      border-top: 1px solid #061524;
+      border-bottom: 1px solid #061524;
+      box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px white;
+      margin: 80px 0px 40px;
+      img{
+        position: absolute;
+        left: 0;
+        opacity: 0.09; 
+        width: 400px;
+        height: auto;
+      }
+      p{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 2em;
+        margin: 0px;
+      } 
+    }
+    div.latest-posts{
+      background-color: #FBFBF8;
+      border-top: 1px solid #979797;
+      border-bottom: 1px solid #979797;
+      article.post-preview{
+        max-width: 728px;
+        margin: 0 auto;
+        border-bottom: 1px solid #B3ABAB;
+        &:last-of-type{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
