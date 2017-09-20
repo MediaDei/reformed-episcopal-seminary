@@ -100,7 +100,7 @@
 						echo 'Students';	
 				}
 
-				if(is_page('news')){
+				if(is_home()){ //wordpress does not have a conditional function/tag for blog page (i.e., is_home)
 						echo 'News';	
 				}
 				if(is_page('apply')){
@@ -134,7 +134,7 @@
 						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
 				}
 
-				if(is_page('news')){
+				if(is_home()){
 						echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
 				}
 				if(is_page('apply')){

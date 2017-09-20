@@ -12,7 +12,7 @@
 @import "admissions";
 @import "students";
 
-@import "blog";
+@import "news";
 @import "apply";
 @import "contact";
 @import "give";
@@ -21,7 +21,7 @@
 body{
   font-size: 18px;
   color: $base-text;
-  line-height: 1.2;
+  line-height: 1.3;
   p{
     hyphens: auto;
   }
