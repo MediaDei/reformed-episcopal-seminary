@@ -64,6 +64,9 @@ header{
         &.menu {
           margin-left: 12px; 
           margin-right: 0px; 
+          &:last-of-type{
+            margin-left: 0px; 
+          }
           &.close{
             display: none;
           }
