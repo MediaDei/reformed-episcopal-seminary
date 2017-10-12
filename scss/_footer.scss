@@ -1,0 +1,132 @@
+footer{
+  a{
+    color: white;
+    &.icon{
+      width: 44px;
+      height: 44px;
+      border-radius: 100%;
+      float: left; 
+      border: 2px solid #979797;
+      margin-right: 18px;
+      font-size: 1.5em; 
+      display: block;
+      &:hover{
+        text-decoration: none; 
+     }
+     &.email-icon{
+       padding: 7px 8px;
+     }
+     &.phone-icon{
+       padding: 9px 9px 9px 9px;
+     }
+     &.facebook-icon{
+       padding: 9px 13px;
+     }
+     &.twitter-icon{
+       padding: 9px;
+     }
+    }
+    &.email,&.phone,&.social{
+      display: table;
+      padding-top: 10px; 
+    }
+  }
+  div.top{
+    height: 149px;
+    padding: 20px 40px;
+    background-color: $dark-blue;
+    div.grid-1-3{
+      color: white;
+      border-right: 1px solid $orange;
+      height: 100%;
+      &:last-of-type{
+        border-right: none;
+      }
+      &.left,&.right{
+        padding-left: 40px; 
+        font-size: 0.9em;
+      }
+      &.center{
+        font-size: 0.8em;
+        background: url('../images/logo-grey-x2.png') no-repeat center center / 100% auto;
+      }
+      address,div.social-media{
+        height: 70px; 
+      }
+      .email,.phone,.social{
+        border-bottom: 1px solid rgba(white,0.45);
+        &:hover{
+          text-decoration: none;
+          cursor: pointer; 
+        }
+      }
+      p.organization,address{
+        text-align: center;
+      }
+      p.organization{
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      }
+      
+    }
+  }
+  div.bottom{
+    //height: 124px;
+    background-color: $light-blue;
+    padding-bottom: 20px; 
+    border-top: 1px solid rgba(white,0.15);
+    box-shadow: inset 0px 2px 4px 0px rgba(black,0.5);
+    div.affiliation.grid{
+      width: 96%;
+      border-bottom: 1px solid black; 
+      box-shadow: 0px 1px 0px 0px rgba(white,0.2);
+      margin: 0px auto 20px;
+      padding: 16px 0px; 
+      div.grid-1-2{
+        a{
+          display: table;
+          position: relative;
+          &#rec,&#acna{
+            color: rgba(white,0.6);
+            font-size: 1em;
+            text-shadow: 0px 1px 0px rgba(black,1);
+            padding-top: 9px; 
+            &:after{
+              content:"";
+              width: 30px;
+              height: 40px;
+              position: absolute;
+            }
+          }
+          &#rec{
+            float: right;
+            padding-right: 60px;
+            &:after{
+              background: url('../images/rec-icon.jpg') no-repeat center center / 100% auto;
+              top: 0px;
+              right: 20px;
+            }
+            
+          }
+          &#acna{
+            float: left; 
+            padding-left: 60px;
+            &:after{
+              background: url('../images/acna-icon.jpg') no-repeat center center / 100% auto;
+              top: 0px;
+              left: 20px;
+            }
+          }
+        }
+      }
+    }
+    div.mediadei{
+      text-align: center; 
+      color: rgba(white,0.5);
+      font-size: 0.7em;
+      a{
+        color: rgba(white,0.5);
+      }
+    }
+  }
+}

@@ -587,6 +587,103 @@ header {
       width: 100%;
       height: 100%; }
 
+footer a {
+  color: white; }
+  footer a.icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    float: left;
+    border: 2px solid #979797;
+    margin-right: 18px;
+    font-size: 1.5em;
+    display: block; }
+    footer a.icon:hover {
+      text-decoration: none; }
+    footer a.icon.email-icon {
+      padding: 7px 8px; }
+    footer a.icon.phone-icon {
+      padding: 9px 9px 9px 9px; }
+    footer a.icon.facebook-icon {
+      padding: 9px 13px; }
+    footer a.icon.twitter-icon {
+      padding: 9px; }
+  footer a.email, footer a.phone, footer a.social {
+    display: table;
+    padding-top: 10px; }
+footer div.top {
+  height: 149px;
+  padding: 20px 40px;
+  background-color: #061524; }
+  footer div.top div.grid-1-3 {
+    color: white;
+    border-right: 1px solid #FF9900;
+    height: 100%; }
+    footer div.top div.grid-1-3:last-of-type {
+      border-right: none; }
+    footer div.top div.grid-1-3.left, footer div.top div.grid-1-3.right {
+      padding-left: 40px;
+      font-size: 0.9em; }
+    footer div.top div.grid-1-3.center {
+      font-size: 0.8em;
+      background: url("../images/logo-grey-x2.png") no-repeat center center/100% auto; }
+    footer div.top div.grid-1-3 address, footer div.top div.grid-1-3 div.social-media {
+      height: 70px; }
+    footer div.top div.grid-1-3 .email, footer div.top div.grid-1-3 .phone, footer div.top div.grid-1-3 .social {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.45); }
+      footer div.top div.grid-1-3 .email:hover, footer div.top div.grid-1-3 .phone:hover, footer div.top div.grid-1-3 .social:hover {
+        text-decoration: none;
+        cursor: pointer; }
+    footer div.top div.grid-1-3 p.organization, footer div.top div.grid-1-3 address {
+      text-align: center; }
+    footer div.top div.grid-1-3 p.organization {
+      text-transform: uppercase;
+      letter-spacing: 1.5px; }
+footer div.bottom {
+  background-color: #2A3C4F;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+  footer div.bottom div.affiliation.grid {
+    width: 96%;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    margin: 0px auto 20px;
+    padding: 16px 0px; }
+    footer div.bottom div.affiliation.grid div.grid-1-2 a {
+      display: table;
+      position: relative; }
+      footer div.bottom div.affiliation.grid div.grid-1-2 a#rec, footer div.bottom div.affiliation.grid div.grid-1-2 a#acna {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 1em;
+        text-shadow: 0px 1px 0px black;
+        padding-top: 9px; }
+        footer div.bottom div.affiliation.grid div.grid-1-2 a#rec:after, footer div.bottom div.affiliation.grid div.grid-1-2 a#acna:after {
+          content: "";
+          width: 30px;
+          height: 40px;
+          position: absolute; }
+      footer div.bottom div.affiliation.grid div.grid-1-2 a#rec {
+        float: right;
+        padding-right: 60px; }
+        footer div.bottom div.affiliation.grid div.grid-1-2 a#rec:after {
+          background: url("../images/rec-icon.jpg") no-repeat center center/100% auto;
+          top: 0px;
+          right: 20px; }
+      footer div.bottom div.affiliation.grid div.grid-1-2 a#acna {
+        float: left;
+        padding-left: 60px; }
+        footer div.bottom div.affiliation.grid div.grid-1-2 a#acna:after {
+          background: url("../images/acna-icon.jpg") no-repeat center center/100% auto;
+          top: 0px;
+          left: 20px; }
+  footer div.bottom div.mediadei {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7em; }
+    footer div.bottom div.mediadei a {
+      color: rgba(255, 255, 255, 0.5); }
+
 body.page-home header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/home-hero.jpg") no-repeat center 0px/100% auto;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.4))), url("../images/home-hero.jpg") no-repeat center 0px/100% auto;
@@ -876,6 +973,8 @@ body {
   font-size: 18px;
   color: #554F4B;
   line-height: 1.3; }
+  body address {
+    font-style: normal; }
   body p {
     hyphens: auto; }
   body div.founded-banner {
