@@ -129,6 +129,21 @@ body{
       }
     }
   }
+  div.banner-connect-large{
+    height: 235px; 
+    background: #061524;
+    overflow: hidden;
+    position: relative;
+    padding: 6px 0px 8px;
+    img{
+      position: absolute;
+      left: -90px;
+      top: -55px;
+      opacity: 0.09; 
+      width: 310px;
+      height: auto;
+    }
+  }
   article.post-preview{
     padding: 50px 20px; 
     border-bottom: 1px solid #E0E0E0;

@@ -303,6 +303,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/rarr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 348,
+		"inputAbbreviatedPath": "\/images\/rarr.png",
+		"outputAbbreviatedPath": "\/images\/rarr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/rec-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -321,6 +332,17 @@
 		"initialSize": 5354,
 		"inputAbbreviatedPath": "\/images\/rec-icon.png",
 		"outputAbbreviatedPath": "\/images\/rec-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/res-name.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 699692,
+		"inputAbbreviatedPath": "\/images\/res-name.jpg",
+		"outputAbbreviatedPath": "\/images\/res-name.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

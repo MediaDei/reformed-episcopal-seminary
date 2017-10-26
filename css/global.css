@@ -883,53 +883,116 @@ body.page-apply header {
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/apply-hero.jpg") no-repeat center 0px/100% auto;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/apply-hero.jpg") no-repeat center 0px/100% auto;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/apply-hero.jpg") no-repeat center 0px/100% auto; }
-body.page-apply section.apply div.application-step {
-  padding: 80px; }
-  body.page-apply section.apply div.application-step.offset {
-    background-color: #FBFBF8; }
-  body.page-apply section.apply div.application-step div.number, body.page-apply section.apply div.application-step div.info {
-    display: inline-block; }
-  body.page-apply section.apply div.application-step div.number {
-    background-color: white;
-    border-radius: 100%;
-    font-size: 10em;
-    color: #FF9900;
-    font-style: italic;
-    border: 1px solid #EDECE5;
-    padding: 0px 100px;
-    width: 255px;
-    height: 255px; }
-    body.page-apply section.apply div.application-step div.number.offset {
+body.page-apply section.apply {
+  padding-bottom: 140px; }
+  body.page-apply section.apply div.application-step {
+    padding: 80px; }
+    body.page-apply section.apply div.application-step.offset {
       background-color: #FBFBF8; }
-  body.page-apply section.apply div.application-step div.info {
-    width: 604px;
-    font-size: 1.2em;
-    padding: 20px 8px;
-    position: relative; }
-    body.page-apply section.apply div.application-step div.info:before {
-      position: absolute;
-      content: "";
-      width: 10px;
-      height: 100%;
-      background: transparent;
-      box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
-      left: 0px; }
-    body.page-apply section.apply div.application-step div.info a.application-dl {
-      color: #061524;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      display: table;
-      position: relative;
-      margin-bottom: 20px; }
-      body.page-apply section.apply div.application-step div.info a.application-dl:hover {
-        text-decoration: none; }
-      body.page-apply section.apply div.application-step div.info a.application-dl:before {
+    body.page-apply section.apply div.application-step div.number, body.page-apply section.apply div.application-step div.info {
+      display: inline-block; }
+    body.page-apply section.apply div.application-step div.number {
+      background-color: white;
+      border-radius: 100%;
+      font-size: 12em;
+      color: #FF9900;
+      font-style: italic;
+      border: 1px solid #EDECE5;
+      width: 255px;
+      height: 255px; }
+      body.page-apply section.apply div.application-step div.number.offset {
+        background-color: #FBFBF8; }
+      body.page-apply section.apply div.application-step div.number.num-1 {
+        padding: 0px 92px;
+        line-height: 1.1; }
+      body.page-apply section.apply div.application-step div.number.num-2 {
+        padding: 0px 78px;
+        line-height: 1; }
+      body.page-apply section.apply div.application-step div.number.num-3 {
+        padding: 0px 84px;
+        line-height: 0.9; }
+      body.page-apply section.apply div.application-step div.number.num-4 {
+        padding: 0px 65px;
+        line-height: 0.9; }
+    body.page-apply section.apply div.application-step div.info {
+      width: 604px;
+      font-size: 1.2em;
+      padding: 20px 8px;
+      position: relative; }
+      body.page-apply section.apply div.application-step div.info:before {
+        position: absolute;
         content: "";
-        border-bottom: 1px solid #FF9900;
-        width: 100%;
-        height: 1px;
-        bottom: -5px;
-        position: absolute; }
+        width: 10px;
+        height: 100%;
+        background: transparent;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
+        left: 0px; }
+      body.page-apply section.apply div.application-step div.info h2 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        letter-spacing: 2.5px;
+        margin-bottom: 5px; }
+        body.page-apply section.apply div.application-step div.info h2 span {
+          font-size: 1.7em; }
+      body.page-apply section.apply div.application-step div.info p {
+        margin: 0 auto 22px; }
+      body.page-apply section.apply div.application-step div.info a.application-dl {
+        color: #061524;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        display: table;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 0.6em; }
+        body.page-apply section.apply div.application-step div.info a.application-dl:hover {
+          text-decoration: none; }
+        body.page-apply section.apply div.application-step div.info a.application-dl:before {
+          content: "";
+          border-bottom: 1px solid #FF9900;
+          width: 100%;
+          height: 1px;
+          bottom: -3px;
+          position: absolute; }
+        body.page-apply section.apply div.application-step div.info a.application-dl:after {
+          content: "";
+          background: url("../images/rarr.png") no-repeat center center;
+          width: 18px;
+          height: 10px;
+          position: absolute;
+          top: 3px;
+          right: -26px; }
+  body.page-apply section.apply h2#residency {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2em;
+    max-width: 420px;
+    margin: 80px auto 40px; }
+  body.page-apply section.apply ul {
+    max-width: 745px;
+    margin: 0 auto 150px;
+    background-color: #FBFBF8;
+    padding: 30px 70px; }
+    body.page-apply section.apply ul li {
+      line-height: 1.3;
+      margin-bottom: 30px;
+      padding-left: 10px; }
+  body.page-apply section.apply div.bottom-photo {
+    width: 100%;
+    height: 730px;
+    background: url("../images/res-name.jpg") no-repeat center center/100% auto;
+    position: relative; }
+    body.page-apply section.apply div.bottom-photo:after {
+      content: "";
+      width: 100%;
+      height: 10%;
+      background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+      background: -moz-linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+      background: -webkit-linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+      background: linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+      position: absolute;
+      top: 0px; }
 
 body.page-contact header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/contact-hero.jpg") no-repeat center 0px/100% auto;
@@ -1105,6 +1168,19 @@ body {
         text-decoration: none; }
       body div.connect-banner div.grid-1-3 a.button:active {
         margin-top: 21px; }
+  body div.banner-connect-large {
+    height: 235px;
+    background: #061524;
+    overflow: hidden;
+    position: relative;
+    padding: 6px 0px 8px; }
+    body div.banner-connect-large img {
+      position: absolute;
+      left: -90px;
+      top: -55px;
+      opacity: 0.09;
+      width: 310px;
+      height: auto; }
   body article.post-preview {
     padding: 50px 20px;
     border-bottom: 1px solid #E0E0E0; }
