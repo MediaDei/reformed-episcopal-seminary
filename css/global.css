@@ -917,21 +917,25 @@ body.page-apply section.apply {
     body.page-apply section.apply div.application-step div.info {
       width: 604px;
       font-size: 1.2em;
-      padding: 20px 8px;
-      position: relative; }
-      body.page-apply section.apply div.application-step div.info:before {
+      padding: 30px 8px 30px 32px;
+      box-shadow: -31px 0px 6px -30px rgba(0, 0, 0, 0.3);
+      /*&:after{
         position: absolute;
-        content: "";
+        content:"";
         width: 10px;
         height: 100%;
         background: transparent;
-        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
-        left: 0px; }
+        box-shadow: 0px 2px 6px 0px rgba(black,0.5);
+        left: 0px;
+        
+      }*/ }
+      body.page-apply section.apply div.application-step div.info.offset {
+        background-color: #FBFBF8; }
       body.page-apply section.apply div.application-step div.info h2 {
         text-transform: uppercase;
         font-size: 1.2em;
         letter-spacing: 2.5px;
-        margin-bottom: 5px; }
+        margin: 5px 0px; }
         body.page-apply section.apply div.application-step div.info h2 span {
           font-size: 1.7em; }
       body.page-apply section.apply div.application-step div.info p {
@@ -1117,6 +1121,22 @@ body {
         font-style: italic; }
       body div.founded-banner div.grid-1-2 p.date {
         font-size: 4.5em; }
+  body a.contact-button {
+    background-color: #CFCDC0;
+    padding: 9px 9px;
+    border: 2px solid #979378;
+    box-shadow: 0px 0px 0px 1px #061524, 0px 0px 0px 2px rgba(161, 158, 141, 0.6);
+    text-shadow: 0px 1px 0px white;
+    color: #061524;
+    display: table;
+    margin: 20px auto 0px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px; }
+    body a.contact-button:hover {
+      text-decoration: none; }
+    body a.contact-button:active {
+      margin-top: 21px; }
   body div.connect-banner {
     background: #061524;
     overflow: hidden;
@@ -1152,35 +1172,49 @@ body {
           font-style: italic;
           color: #C1C1C1;
           margin: 6px 0px 0px; }
-    body div.connect-banner div.grid-1-3 a.button {
-      background-color: #CFCDC0;
-      padding: 9px 9px;
-      border: 2px solid #979378;
-      box-shadow: 0px 0px 0px 1px #061524, 0px 0px 0px 2px rgba(161, 158, 141, 0.6);
-      text-shadow: 0px 1px 0px white;
-      color: #061524;
-      display: table;
-      margin: 20px auto 0px;
-      font-size: 0.8em;
-      text-transform: uppercase;
-      letter-spacing: 1.5px; }
-      body div.connect-banner div.grid-1-3 a.button:hover {
-        text-decoration: none; }
-      body div.connect-banner div.grid-1-3 a.button:active {
-        margin-top: 21px; }
   body div.banner-connect-large {
     height: 235px;
-    background: #061524;
+    background-color: #061524;
     overflow: hidden;
     position: relative;
     padding: 6px 0px 8px; }
     body div.banner-connect-large img {
       position: absolute;
-      left: -90px;
-      top: -55px;
+      left: 0px;
+      top: -1px;
       opacity: 0.09;
-      width: 310px;
+      width: 370px;
       height: auto; }
+    body div.banner-connect-large h3 {
+      text-align: center;
+      color: white;
+      position: relative;
+      font-size: 1.4em; }
+      body div.banner-connect-large h3:after {
+        content: "";
+        width: 82px;
+        border-bottom: 1px solid #FF9900;
+        position: absolute;
+        top: 33px;
+        left: 47%; }
+    body div.banner-connect-large div#frame {
+      margin: 0 auto;
+      border: 1px solid #979797;
+      box-shadow: inset rgba(255, 255, 255, 0.71) 0px 1px 9px 0px;
+      max-width: 586px;
+      border-radius: 10px;
+      padding: 38px 60px 30px;
+      display: table; }
+      body div.banner-connect-large div#frame p {
+        color: #C1C1C1;
+        font-style: italic;
+        text-align: center;
+        width: 282px;
+        display: inline-block;
+        margin: 0px 24px 0px 0px; }
+      body div.banner-connect-large div#frame a.contact-button {
+        margin: 0px;
+        float: right; }
   body article.post-preview {
     padding: 50px 20px;
     border-bottom: 1px solid #E0E0E0; }

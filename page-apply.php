@@ -13,7 +13,7 @@
 
   <div class="application-step offset">
     <div class="number num-2">2</div>
-    <div class="info">
+    <div class="info offset">
       <h2><span>S</span>tep <span>T</span>wo</h2>
       <p>
         <span class="italic">Next you need two references.</span> Download both reference forms below. One will be your personal reference letter, and the other a reference letter from your pastor. Lorem ipsum dolor sit amet. Arma virumque cano. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. 
@@ -36,7 +36,7 @@
 
   <div class="application-step offset">
     <div class="number num-4">4</div>
-    <div class="info">
+    <div class="info offset">
       <h2><span>S</span>tep <span>F</span>our</h2>
       <p>
         <span class="italic">Finally send us your transcripts.</span> Use a form such as the one below to request transcripts from the academic institutions you’ve previously studied at. Lorem ipsum dolor sit amet. Arma virumque cano. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
@@ -45,10 +45,11 @@
     </div>
   </div>
   <div class="banner-connect-large">
+    <img src="/wp-content/themes/res-theme/images/logo-white-x2.png" alt="logo">
     <h3>Connect with us</h3>
     <div id="frame">
       <p>Discuss degree options, explore financial aid, and start the conversation:</p>
-      <a class="button" href="/contact">Contact</a>
+      <a class="contact-button" href="/contact">Contact</a>
     </div>
   </div>
   <h2 id="residency">Residency & Time Requirements</h2>
