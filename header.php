@@ -113,6 +113,9 @@
 					if(is_page('give')){
 							echo 'Give';	
 					}
+					if(is_page('our-team')){
+							echo 'Faculty/Staff';	
+					}
 				?>
 				</h1>
 				<div class="gold-line"></div>
@@ -145,6 +148,9 @@
 							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
 					}
 					if(is_page('give')){
+							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
+					}
+					if(is_page('our-team')){
 							echo 'Lorem ipsum dolor sit amet. Arma virumque cano vergilius sum.';	
 					}
 				?>

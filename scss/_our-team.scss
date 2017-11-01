@@ -1,0 +1,86 @@
+body.page-our-team{
+  header{
+    @include background( 
+        linear-gradient(rgba(black,0.4), rgba(black,0.4)),
+        url('../images/crouthamel-hero.jpg') no-repeat center 0px / 100% auto
+      ); 
+  }
+  div{
+    &.faculty{
+      margin-top: 160px; 
+    }
+    &.board{
+      padding-bottom: 100px; 
+    }
+    &.faculty,&.admin-staff,&.board{
+      h1,h2{
+        text-align: center; 
+      }
+      h1{
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 0px 2px 2px rgba(black,1);
+        padding: 14px 0px;
+        background-color: rgba(6,21,36,0.75);
+        border: 1px solid #42474C;
+        box-shadow: inset 0px 0px 1px rgba(white,0.5);  
+        margin: 40px auto;
+        width: 92%;
+        letter-spacing: 2px;
+        font-size: 2.3em;
+      }
+      h2{
+        font-style: italic;
+        font-size: 2em;
+        margin: 80px 0px;
+      }
+      div.grid{
+        max-width: 900px;
+        margin: 0 auto;  
+        div.grid-1-3,.grid-1-2{
+          div.portrait{
+            width: 170px;
+            height: 170px;
+            margin: 0 auto;
+            border: 1px solid #979797;
+            border-radius: 100%;
+            box-shadow: inset 0px 0px 0px 3px rgba(white,1), inset 0px 0px 0px 1px #979797;
+            background: #D8D8D8 url('../images/stock-portrait.jpg') center center / 110% auto; 
+          }
+          div.info{
+            width: 216px;
+            margin: 0 auto;
+            position: relative;
+            background-color: white; 
+            top: -46px;
+            padding: 10px; 
+            box-shadow: 0px -3px 4px -5px rgba(black,0.8);
+            p.name{
+              font-size: 0.9em;
+              margin: 0px 0px 4px 0px;
+            } 
+            ul{
+              margin: 0 auto;
+              padding-left: 14px; 
+              li{
+                font-style: italic;
+                font-size: 0.8em;
+              }
+            }
+          }
+        }
+        div.grid-1-2{
+          
+        }
+      }
+      div.subsection-break{
+        height: 2px;
+        width: 90%;
+        margin: 20px auto 80px;   
+        @include background( 
+          radial-gradient(rgba(255,153,0,1), rgba(255,201,0,0)70%));
+      }
+    }
+    
+  }
+}

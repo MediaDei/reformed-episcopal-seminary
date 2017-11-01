@@ -1012,6 +1012,71 @@ body.page-give header {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/give-hero.jpg") no-repeat center 0px/100% auto;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/give-hero.jpg") no-repeat center 0px/100% auto; }
 
+body.page-our-team header {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/crouthamel-hero.jpg") no-repeat center 0px/100% auto;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.4))), url("../images/crouthamel-hero.jpg") no-repeat center 0px/100% auto;
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/crouthamel-hero.jpg") no-repeat center 0px/100% auto;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/crouthamel-hero.jpg") no-repeat center 0px/100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/crouthamel-hero.jpg") no-repeat center 0px/100% auto; }
+body.page-our-team div.faculty {
+  margin-top: 160px; }
+body.page-our-team div.board {
+  padding-bottom: 100px; }
+body.page-our-team div.faculty h1, body.page-our-team div.faculty h2, body.page-our-team div.admin-staff h1, body.page-our-team div.admin-staff h2, body.page-our-team div.board h1, body.page-our-team div.board h2 {
+  text-align: center; }
+body.page-our-team div.faculty h1, body.page-our-team div.admin-staff h1, body.page-our-team div.board h1 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0px 2px 2px black;
+  padding: 14px 0px;
+  background-color: rgba(6, 21, 36, 0.75);
+  border: 1px solid #42474C;
+  box-shadow: inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  margin: 40px auto;
+  width: 92%;
+  letter-spacing: 2px;
+  font-size: 2.3em; }
+body.page-our-team div.faculty h2, body.page-our-team div.admin-staff h2, body.page-our-team div.board h2 {
+  font-style: italic;
+  font-size: 2em;
+  margin: 80px 0px; }
+body.page-our-team div.faculty div.grid, body.page-our-team div.admin-staff div.grid, body.page-our-team div.board div.grid {
+  max-width: 900px;
+  margin: 0 auto; }
+  body.page-our-team div.faculty div.grid div.grid-1-3 div.portrait, body.page-our-team div.faculty div.grid .grid-1-2 div.portrait, body.page-our-team div.admin-staff div.grid div.grid-1-3 div.portrait, body.page-our-team div.admin-staff div.grid .grid-1-2 div.portrait, body.page-our-team div.board div.grid div.grid-1-3 div.portrait, body.page-our-team div.board div.grid .grid-1-2 div.portrait {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    border: 1px solid #979797;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 3px white, inset 0px 0px 0px 1px #979797;
+    background: #D8D8D8 url("../images/stock-portrait.jpg") center center/110% auto; }
+  body.page-our-team div.faculty div.grid div.grid-1-3 div.info, body.page-our-team div.faculty div.grid .grid-1-2 div.info, body.page-our-team div.admin-staff div.grid div.grid-1-3 div.info, body.page-our-team div.admin-staff div.grid .grid-1-2 div.info, body.page-our-team div.board div.grid div.grid-1-3 div.info, body.page-our-team div.board div.grid .grid-1-2 div.info {
+    width: 216px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    top: -46px;
+    padding: 10px;
+    box-shadow: 0px -3px 4px -5px rgba(0, 0, 0, 0.8); }
+    body.page-our-team div.faculty div.grid div.grid-1-3 div.info p.name, body.page-our-team div.faculty div.grid .grid-1-2 div.info p.name, body.page-our-team div.admin-staff div.grid div.grid-1-3 div.info p.name, body.page-our-team div.admin-staff div.grid .grid-1-2 div.info p.name, body.page-our-team div.board div.grid div.grid-1-3 div.info p.name, body.page-our-team div.board div.grid .grid-1-2 div.info p.name {
+      font-size: 0.9em;
+      margin: 0px 0px 4px 0px; }
+    body.page-our-team div.faculty div.grid div.grid-1-3 div.info ul, body.page-our-team div.faculty div.grid .grid-1-2 div.info ul, body.page-our-team div.admin-staff div.grid div.grid-1-3 div.info ul, body.page-our-team div.admin-staff div.grid .grid-1-2 div.info ul, body.page-our-team div.board div.grid div.grid-1-3 div.info ul, body.page-our-team div.board div.grid .grid-1-2 div.info ul {
+      margin: 0 auto;
+      padding-left: 14px; }
+      body.page-our-team div.faculty div.grid div.grid-1-3 div.info ul li, body.page-our-team div.faculty div.grid .grid-1-2 div.info ul li, body.page-our-team div.admin-staff div.grid div.grid-1-3 div.info ul li, body.page-our-team div.admin-staff div.grid .grid-1-2 div.info ul li, body.page-our-team div.board div.grid div.grid-1-3 div.info ul li, body.page-our-team div.board div.grid .grid-1-2 div.info ul li {
+        font-style: italic;
+        font-size: 0.8em; }
+body.page-our-team div.faculty div.subsection-break, body.page-our-team div.admin-staff div.subsection-break, body.page-our-team div.board div.subsection-break {
+  height: 2px;
+  width: 90%;
+  margin: 20px auto 80px;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmY5OTAwIi8+PHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiNmZmM5MDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -moz-radial-gradient(#ff9900, rgba(255, 201, 0, 0) 70%);
+  background: -webkit-radial-gradient(#ff9900, rgba(255, 201, 0, 0) 70%);
+  background: radial-gradient(#ff9900, rgba(255, 201, 0, 0) 70%); }
+
 body.single header {
   min-height: auto;
   padding-top: 140px; }
