@@ -136,6 +136,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bishop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 468006,
+		"inputAbbreviatedPath": "\/images\/bishop.jpg",
+		"outputAbbreviatedPath": "\/images\/bishop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bridge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 719822,
+		"inputAbbreviatedPath": "\/images\/bridge.jpg",
+		"outputAbbreviatedPath": "\/images\/bridge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/building.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -165,6 +187,17 @@
 		"initialSize": 596622,
 		"inputAbbreviatedPath": "\/images\/contact-hero.jpg",
 		"outputAbbreviatedPath": "\/images\/contact-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/convo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 838683,
+		"inputAbbreviatedPath": "\/images\/convo.jpg",
+		"outputAbbreviatedPath": "\/images\/convo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -275,6 +308,17 @@
 		"initialSize": 504901,
 		"inputAbbreviatedPath": "\/images\/news-hero.jpg",
 		"outputAbbreviatedPath": "\/images\/news-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/nick-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 663928,
+		"inputAbbreviatedPath": "\/images\/nick-home.jpg",
+		"outputAbbreviatedPath": "\/images\/nick-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

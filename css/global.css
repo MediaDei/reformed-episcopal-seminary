@@ -47,7 +47,7 @@
   float: left;
   margin-right: 5px; }
 
-span.italic {
+.italic {
   font-style: italic; }
 
 @font-face {
@@ -695,6 +695,131 @@ body.page-home header {
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/home-hero.jpg") no-repeat center 0px/100% auto;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/home-hero.jpg") no-repeat center 0px/100% auto;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/home-hero.jpg") no-repeat center 0px/100% auto; }
+body.page-home section.home {
+  padding: 100px 0px; }
+  body.page-home section.home h2.title {
+    text-align: center;
+    position: relative; }
+    body.page-home section.home h2.title:before {
+      content: "";
+      position: absolute;
+      bottom: -16px;
+      left: 50%;
+      margin: 0 auto;
+      height: 2px;
+      width: 18%;
+      -moz-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+      -webkit-transform: translate(-50%, 0%);
+      transform: translate(-50%, 0%);
+      border-bottom: 2px solid #FF9900; }
+  body.page-home section.home p.title-msg {
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-top: 20px;
+    margin: 0 auto; }
+  body.page-home section.home div.photo-text {
+    margin: 80px 0px; }
+    body.page-home section.home div.photo-text div.photo {
+      width: 100%;
+      height: 651px; }
+      body.page-home section.home div.photo-text div.photo.nick {
+        background: url("../images/nick-home.jpg") no-repeat center center/100% auto; }
+      body.page-home section.home div.photo-text div.photo.bridge {
+        background: url("../images/bridge.jpg") no-repeat center center/100% auto; }
+      body.page-home section.home div.photo-text div.photo.convo {
+        background: url("../images/convo.jpg") no-repeat center center/100% auto; }
+      body.page-home section.home div.photo-text div.photo div.text {
+        background-color: rgba(255, 255, 255, 0.96);
+        max-width: 725px;
+        margin: 0 auto;
+        padding: 30px 20px;
+        position: relative;
+        top: 60%;
+        /*&:before{
+          content:"";
+          height: 108px;
+          background-color: #FDEC8C;
+          position: absolute;
+          top: 0px;  
+        }*/ }
+        body.page-home section.home div.photo-text div.photo div.text h3 {
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin: 0; }
+        body.page-home section.home div.photo-text div.photo div.text p {
+          display: inline-block;
+          max-width: 388px; }
+        body.page-home section.home div.photo-text div.photo div.text a.button {
+          display: inline-block; }
+  body.page-home section.home div.accreditation {
+    max-width: 764px;
+    margin: 0 auto;
+    background-color: #FBFBF8;
+    border: 1px solid #DADADA;
+    padding: 40px 40px; }
+    body.page-home section.home div.accreditation h3 {
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.1em;
+      letter-spacing: 2px;
+      position: relative;
+      margin: 0 auto; }
+      body.page-home section.home div.accreditation h3:before {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        margin: 0 auto;
+        height: 2px;
+        width: 18%;
+        -moz-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+        border-bottom: 2px solid #FF9900; }
+    body.page-home section.home div.accreditation p {
+      font-size: 1.2em;
+      margin: 40px auto 20px; }
+  body.page-home section.home div.photo-join {
+    margin: 80px 0px; }
+    body.page-home section.home div.photo-join div.photo {
+      width: 100%;
+      height: 651px;
+      background: url("../images/bishop.jpg") no-repeat center center/100% auto; }
+      body.page-home section.home div.photo-join div.photo div.text {
+        background-color: rgba(255, 255, 255, 0.12);
+        max-width: 725px;
+        margin: 0 auto;
+        padding: 30px 20px;
+        position: relative;
+        top: 6%; }
+        body.page-home section.home div.photo-join div.photo div.text h3, body.page-home section.home div.photo-join div.photo div.text p {
+          color: white;
+          text-align: center; }
+        body.page-home section.home div.photo-join div.photo div.text h3 {
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin: 0; }
+        body.page-home section.home div.photo-join div.photo div.text p {
+          font-style: italic; }
+        body.page-home section.home div.photo-join div.photo div.text a.button {
+          background-color: #CFCDC0;
+          padding: 9px 9px;
+          border: 2px solid #979378;
+          box-shadow: 0px 0px 0px 1px #061524, 0px 0px 0px 2px rgba(161, 158, 141, 0.6);
+          text-shadow: 0px 1px 0px white;
+          color: #061524;
+          display: table;
+          margin: 20px auto 0px;
+          font-size: 0.8em;
+          text-transform: uppercase;
+          letter-spacing: 1.5px; }
+          body.page-home section.home div.photo-join div.photo div.text a.button:hover {
+            text-decoration: none; }
+          body.page-home section.home div.photo-join div.photo div.text a.button:active {
+            margin-top: 21px; }
 
 body.page-heritage header {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC40Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'), url("../images/heritage-hero.jpg") no-repeat center 0px/100% auto;
@@ -744,56 +869,6 @@ body.page-heritage section.heritage {
       body.page-heritage section.heritage div.statistics.grid div.grid-1-3 p {
         width: 100%;
         text-align: center; }
-  body.page-heritage section.heritage div.professor-highlight {
-    display: table;
-    margin: 90px auto 60px; }
-    body.page-heritage section.heritage div.professor-highlight img {
-      border-radius: 100%;
-      margin-top: 15px;
-      margin-right: 40px;
-      box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 3px #979797;
-      float: left; }
-    body.page-heritage section.heritage div.professor-highlight div.text {
-      float: left; }
-      body.page-heritage section.heritage div.professor-highlight div.text p.bio {
-        border-top: 1px solid #979797;
-        border-bottom: 1px solid #979797;
-        padding: 40px 10px;
-        font-style: italic;
-        line-height: 1.5;
-        font-size: 1.3em;
-        position: relative; }
-        body.page-heritage section.heritage div.professor-highlight div.text p.bio span {
-          text-transform: uppercase;
-          font-style: normal; }
-          body.page-heritage section.heritage div.professor-highlight div.text p.bio span:first-letter {
-            font-size: 1.3em; }
-        body.page-heritage section.heritage div.professor-highlight div.text p.bio:before {
-          content: "”";
-          position: absolute;
-          top: -6px;
-          font-family: georgia;
-          background: white;
-          font-size: 120px;
-          left: 39%;
-          padding-top: 30px;
-          line-height: 0.1;
-          padding-left: 50px;
-          width: 120px; }
-      body.page-heritage section.heritage div.professor-highlight div.text p.prof-name, body.page-heritage section.heritage div.professor-highlight div.text p.title {
-        font-size: 0.8em; }
-      body.page-heritage section.heritage div.professor-highlight div.text p.prof-name {
-        margin: 20px 0px 0px 0px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        display: table;
-        position: relative; }
-        body.page-heritage section.heritage div.professor-highlight div.text p.prof-name:before {
-          content: "-";
-          position: absolute;
-          left: 30px; }
-      body.page-heritage section.heritage div.professor-highlight div.text p.title {
-        margin-top: 4px; }
   body.page-heritage section.heritage div.bottom-photo {
     width: 100%;
     height: 730px;
@@ -1304,7 +1379,8 @@ body {
       padding: 20px 0px; }
     body div.founded-banner div.grid-1-2 p {
       text-align: center;
-      color: white; }
+      color: white;
+      margin: 0 auto; }
       body div.founded-banner div.grid-1-2 p.top {
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -1443,3 +1519,55 @@ body {
         margin-top: 0; }
         body article.post-preview div.content p:first-line {
           font-family: "SortsMillGoudy-SC"; }
+  body div.professor-highlight {
+    display: table;
+    margin: 90px auto 60px; }
+    body div.professor-highlight img {
+      border-radius: 100%;
+      margin-top: 15px;
+      margin-right: 40px;
+      box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 3px #979797;
+      float: left; }
+    body div.professor-highlight div.text {
+      float: left; }
+      body div.professor-highlight div.text p.bio {
+        border-top: 1px solid #979797;
+        border-bottom: 1px solid #979797;
+        padding: 40px 10px;
+        font-style: italic;
+        line-height: 1.5;
+        font-size: 1.3em;
+        position: relative;
+        max-width: 720px; }
+        body div.professor-highlight div.text p.bio span {
+          text-transform: uppercase;
+          font-style: normal; }
+          body div.professor-highlight div.text p.bio span:first-letter {
+            font-size: 1.3em; }
+        body div.professor-highlight div.text p.bio:before {
+          content: "”";
+          position: absolute;
+          top: -6px;
+          font-family: georgia;
+          background: white;
+          font-size: 120px;
+          left: 39%;
+          padding-top: 30px;
+          line-height: 0.1;
+          padding-left: 50px;
+          width: 120px; }
+      body div.professor-highlight div.text p.prof-name, body div.professor-highlight div.text p.title {
+        font-size: 0.8em;
+        padding-left: 40px; }
+      body div.professor-highlight div.text p.prof-name {
+        margin: 20px 0px 0px 0px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        display: table;
+        position: relative; }
+        body div.professor-highlight div.text p.prof-name:before {
+          content: "-";
+          position: absolute;
+          left: 30px; }
+      body div.professor-highlight div.text p.title {
+        margin-top: 4px; }

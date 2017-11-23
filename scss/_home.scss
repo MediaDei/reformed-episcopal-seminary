@@ -5,4 +5,151 @@ body.page-home{
         url('../images/home-hero.jpg') no-repeat center 0px / 100% auto
       ); 
   }
+  section.home{
+    padding: 100px 0px; 
+    h2.title{
+      text-align: center; 
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        bottom: -16px;
+        left: 50%;
+        margin: 0 auto; 
+        height: 2px;
+        width: 18%;  
+        @include transform(translate(-50%, 0%));
+        border-bottom: 2px solid $underline;
+      }
+    }
+    p.title-msg{
+      text-align: center;
+      font-size: 1.2em; 
+      max-width: 600px;
+      padding-top: 20px; 
+      margin: 0 auto;
+    }
+    div.photo-text{
+      margin: 80px 0px; 
+      div.photo{
+        width: 100%;
+        height: 651px;
+        &.nick{  
+          background: url("../images/nick-home.jpg") no-repeat center center / 100% auto;
+        }
+        &.bridge{
+          background: url("../images/bridge.jpg") no-repeat center center / 100% auto;
+        }
+        &.convo{
+          background: url("../images/convo.jpg") no-repeat center center / 100% auto;
+        }
+
+        div.text{
+          background-color: rgba(white,0.96);
+          max-width: 725px;
+          margin: 0 auto;  
+          padding: 30px 20px; 
+          position: relative;
+          top: 60%;
+          /*&:before{
+            content:"";
+            height: 108px;
+            background-color: #FDEC8C;
+            position: absolute;
+            top: 0px;  
+          }*/
+          h3{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+          }
+          p{
+            display: inline-block;
+            max-width: 388px; 
+          }
+          a.button{
+            display: inline-block; 
+          }
+        }
+      }
+    }
+    div.accreditation{
+      max-width: 764px;
+      margin: 0 auto;
+      background-color: #FBFBF8;
+      border: 1px solid #DADADA; 
+      padding: 40px 40px; 
+      
+      h3{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.1em;
+        letter-spacing: 2px;
+        position: relative;
+        margin: 0 auto;
+        &:before{
+          content: "";
+          position: absolute;
+          bottom: -12px;
+          left: 50%;
+          margin: 0 auto; 
+          height: 2px;
+          width: 18%;  
+          @include transform(translate(-50%, 0%));
+          border-bottom: 2px solid $underline;
+        }
+      }
+      p{
+        font-size: 1.2em;
+        margin: 40px auto 20px;
+      }
+    }
+    div.photo-join{
+      margin: 80px 0px; 
+      div.photo{
+        width: 100%;
+        height: 651px;
+        background: url("../images/bishop.jpg") no-repeat center center / 100% auto;
+        div.text{
+          background-color: rgba(white,0.12);
+          max-width: 725px;
+          margin: 0 auto;  
+          padding: 30px 20px; 
+          position: relative;
+          top: 6%;
+          h3,p{
+            color: white;
+            text-align: center;
+          }
+          h3{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+          }
+          p{
+            font-style: italic;
+          }
+          a.button{
+            background-color: #CFCDC0;
+            padding: 9px 9px;
+            border: 2px solid #979378;
+            box-shadow: 0px 0px 0px 1px #061524, 0px 0px 0px 2px rgba(161,158,141,0.6);
+            text-shadow: 0px 1px 0px white;
+            color: #061524;
+            display: table;
+            margin: 20px auto 0px;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            &:hover{
+              text-decoration: none;
+            }
+            &:active{
+              margin-top: 21px; 
+            }
+          }
+        }
+      }
+    }
+  }
 }
